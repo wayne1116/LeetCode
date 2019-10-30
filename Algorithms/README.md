@@ -1,2 +1,1 @@
-### LeetCode Algorithms
-https://leetcode.com/problemset/algorithms/
+## [LeetCode Algorithms](https://leetcode.com/problemset/algorithms/)

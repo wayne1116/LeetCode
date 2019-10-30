@@ -1,5 +1,9 @@
 # [LeetCode](https://leetcode.com/)
 
-- Algorithm
+## - Algorithm
 
-- Weekly Contest
+https://leetcode.com/problemset/algorithms/
+
+## - Weekly Contest
+
+https://leetcode.com/contest/

@@ -1,5 +1,1 @@
-# LeetCode
-
-***Program Practice***
-
-https://leetcode.com/
+# [LeetCode](https://leetcode.com/)

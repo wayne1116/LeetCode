@@ -1,9 +1,9 @@
 # [LeetCode](https://leetcode.com/)
 
-## - Algorithm
+### - Algorithm
 
 https://leetcode.com/problemset/algorithms/
 
-## - Weekly Contest
+### - Weekly Contest
 
 https://leetcode.com/contest/

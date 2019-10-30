@@ -2,8 +2,8 @@
 
 - Split a String in Balanced Strings (Easy)
 
-- Queens That Can Attack the King (Mediumn)
+- Queens That Can Attack the King (Medium)
 
-- Dice Roll Simulation (Mediumn)
+- Dice Roll Simulation (Medium)
 
 - Maximum Equal Frequency (Hard)

@@ -1,5 +1,5 @@
 # [LeetCode](https://leetcode.com/)
 
-## Algorithm
+- Algorithm
 
-## Weekly Contest
+- Weekly Contest

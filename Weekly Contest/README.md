@@ -1,3 +1,4 @@
-# Weekly Contest
+# [Weekly Contest](https://leetcode.com/contest/)
+The project includes my solutions 
 
-https://leetcode.com/contest/
+- 

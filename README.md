@@ -1,5 +1,5 @@
 # [LeetCode](https://leetcode.com/)
-This project includes my solutions for LeetCode weekly contest with Java.
+This project includes my solutions with Java.
 
 ### - Algorithm
 

@@ -45,3 +45,13 @@ This project includes my solutions for LeetCode weekly contest with Java.
 - Maximum Length of a Concatenated String with Unique Characters
 
 - Tiling a Rectangle with the Fewest Squares
+
+## Weekly Contest 161
+
+- Minimum Swaps to Make Strings Equal
+
+- Count Number of Nice Subarrays
+
+- Minimum Remove to Make Valid Parentheses
+
+- Check If It Is a Good Array

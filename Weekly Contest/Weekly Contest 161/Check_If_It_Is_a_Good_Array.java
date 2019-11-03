@@ -1,5 +1,5 @@
 class Solution {
-    public boolean isGoodArray(int[] nums) {
+    public boolean isGoodArray(int[] nums) {     // Bézout's identity
         int value = nums[0];
         for(int i=0; i<nums.length; i++){
             value = gcd(value, nums[i]);

@@ -55,3 +55,13 @@ This project includes my solutions for LeetCode weekly contest with Java.
 - Minimum Remove to Make Valid Parentheses
 
 - Check If It Is a Good Array
+
+## Weekly Contest 162
+
+- Cells with Odd Values in a Matrix
+
+- Reconstruct a 2-Row Binary Matrix
+
+- Number of Closed Islands
+
+- Maximum Score Words Formed by Letters

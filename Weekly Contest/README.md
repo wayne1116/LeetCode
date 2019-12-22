@@ -12,3 +12,5 @@ This project includes my solutions for LeetCode weekly contest with Java.
 
 ### [Weekly Contest 162](https://github.com/wayne1116/LeetCode/tree/master/Weekly%20Contest/Weekly%20Contest%20162)
 ### [Weekly Contest 167](https://github.com/wayne1116/LeetCode/tree/master/Weekly%20Contest/Weekly%20Contest%20167)
+
+### [Weekly Contest 168](https://github.com/wayne1116/LeetCode/tree/master/Weekly%20Contest/Weekly%20Contest%20168)

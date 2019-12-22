@@ -46,3 +46,37 @@ class Solution {
         return result;
     }
 }
+
+/*
+class Solution {
+    public boolean isPossibleDivide(int[] nums, int k) {
+        if(nums.length%k!=0) return false;
+        
+        Map<Integer, Integer> map=new TreeMap<Integer, Integer>();
+        for(int i=0; i<nums.length; i++){
+            int v=1;
+            if(map.containsKey(nums[i])){
+                v=map.get(nums[i]);
+                ++v;
+            }
+            map.put(nums[i], v);
+        }
+        
+        Set<Map.Entry<Integer,Integer>> entrySet = map.entrySet();
+        for(Map.Entry<Integer,Integer> entry : entrySet){
+            Integer key = entry.getKey();
+            Integer value = entry.getValue();
+            while(value>0){
+                for(int i=0; i<k; i++){
+                    if(!map.containsKey(i+key)) return false;
+                    else{
+                        int v= map.get(i+key)-1;
+                        map.put(i+key, v);
+                    }
+                }
+                --value;
+            }
+        }
+        return true;
+   }
+}*/

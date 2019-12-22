@@ -47,7 +47,8 @@ class Solution {
     }
 }
 
-/*
+/* the second implementation
+
 class Solution {
     public boolean isPossibleDivide(int[] nums, int k) {
         if(nums.length%k!=0) return false;

@@ -1,3 +1,4 @@
+// LCS
 class Solution {
     public int minInsertions(String s) {
         int n=s.length();
@@ -12,3 +13,23 @@ class Solution {
         return n-dp[n][n];
     }
 }
+
+/* recursive
+class Solution {
+    int [][] dp;
+    int solv(int s, int e, String line)
+    {
+        if(s>=e) return 0;
+        if(dp[s][e]!=-1) return dp[s][e];
+        return dp[s][e]=(line.charAt(s)==line.charAt(e)?solv(s+1,e-1,line):1+Math.min(solv(s+1,e,line),solv(s,e-1,line)));
+    }
+    public int minInsertions(String s) {
+        int n=s.length();
+        dp=new int[n][n];
+        for(int i=0; i<n; i++){
+            for(int j=0; j<n; j++) dp[i][j]=-1;
+        }
+        return solv(0, n-1, s);
+    }
+}
+*/

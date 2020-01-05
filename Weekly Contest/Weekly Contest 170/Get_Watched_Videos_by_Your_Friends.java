@@ -38,7 +38,7 @@ class Solution {
                 }
             }
         }
-		    List<Map.Entry<String,Integer>> list = new ArrayList<Map.Entry<String,Integer>>(map.entrySet());
+	List<Map.Entry<String,Integer>> list = new ArrayList<Map.Entry<String,Integer>>(map.entrySet());
         Collections.sort(list,new Comparator<Map.Entry<String,Integer>>() {
         public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
             if(o1.getValue()==o2.getValue()) return o1.getKey().compareTo(o2.getKey());

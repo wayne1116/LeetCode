@@ -22,6 +22,9 @@ class Solution {
         if(s>=e) return 0;
         if(dp[s][e]!=-1) return dp[s][e];
         return dp[s][e]=(line.charAt(s)==line.charAt(e)?solv(s+1,e-1,line):1+Math.min(solv(s+1,e,line),solv(s,e-1,line)));
+        // Two case
+        // 1. insert one character at e to match the character at s
+        // 2. insert one character at s to match the character at e
     }
     public int minInsertions(String s) {
         int n=s.length();

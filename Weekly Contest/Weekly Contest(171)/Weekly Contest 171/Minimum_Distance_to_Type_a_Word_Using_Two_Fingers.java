@@ -1,3 +1,4 @@
+// BFS
 class Solution {
     public int minimumDistance(String word) {
         Map<Integer, Integer> map=new HashMap<Integer, Integer>();
@@ -52,3 +53,47 @@ class Solution {
         return result;
     }
 }
+
+/* DP
+
+class Solution {
+    public int minimumDistance(String word) {
+        int len=word.length();
+        int[][][] dp=new int[26][27][len];
+        for(int i=0; i<26; i++){
+            for(int j=0; j<27; j++){
+                for(int k=0; k<len; k++) dp[i][j][k]=-1;
+            }
+        }
+        
+        dp[word.charAt(0)-'A'][26][0]=0;
+        for(int i=1; i<len; i++){
+            int now=word.charAt(i)-'A';
+            for(int j=0; j<26; j++){
+                for(int k=0; k<27; k++){
+                    if(dp[j][k][i-1]>=0){
+                        // move the finger 1
+                        int dis1=Math.abs(j/6-now/6)+Math.abs(j%6-now%6);
+                        if(dp[now][k][i]<0) dp[now][k][i]=dis1+dp[j][k][i-1];
+                        else dp[now][k][i]=Math.min(dp[now][k][i], dis1+dp[j][k][i-1]);
+                        
+                        // move the finger 2
+                        int dis2=0;
+                        if(k!=26) dis2=Math.abs(k/6-now/6)+Math.abs(k%6-now%6);
+                        if(dp[j][now][i]<0) dp[j][now][i]=dis2+dp[j][k][i-1];
+                        else dp[j][now][i]=Math.min(dp[j][now][i], dis2+dp[j][k][i-1]);
+                    }
+                }
+            }
+        }
+        
+        int result=2147483647;
+        for(int i=0; i<26; i++){
+            for(int j=0; j<27; j++){
+                if(dp[i][j][len-1]>=0) result=Math.min(result, dp[i][j][len-1]);
+            }
+        }
+        return result;
+    }
+}
+*/

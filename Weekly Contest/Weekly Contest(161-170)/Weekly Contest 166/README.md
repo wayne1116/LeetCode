@@ -1,4 +1,4 @@
-### Weekly Contest 166[https://leetcode.com/contest/weekly-contest-166]
+### [Weekly Contest 166](https://leetcode.com/contest/weekly-contest-166)
 
 - Subtract the Product and Sum of Digits of an Integer(Easy)
 

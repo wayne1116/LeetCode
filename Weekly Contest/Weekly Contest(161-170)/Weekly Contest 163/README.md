@@ -1,4 +1,4 @@
-### [Weekly Contest](https://leetcode.com/contest/weekly-contest-163)
+### [Weekly Contest 163](https://leetcode.com/contest/weekly-contest-163)
 
 - 1260.Shift 2D Grid(Easy)
 

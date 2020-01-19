@@ -1,4 +1,4 @@
-###[Weekly Contest 172](https://leetcode.com/contest/weekly-contest-172)
+### [Weekly Contest 172](https://leetcode.com/contest/weekly-contest-172)
 
 - 5315.Maximum 69 Number
 

@@ -67,3 +67,40 @@ Return the two integers in any order.
 ---
 
 ### Largest Multiple of Three(Hard)
+
+Given an integer array of digits, return the largest multiple of three that can be formed by concatenating some of the given digits in any order.
+
+Since the answer may not fit in an integer data type, return the answer as a string.
+
+If there is no answer return an empty string.
+
+**Example1:**
+
+    Input: digits=[8,6,7,1,0]
+    Output: "8760"
+
+**Example2:**
+
+    Input: digits=[2,1,1,1]
+    Output: "111"
+
+**Example3:**
+
+    Input: digits=[2,2,1,1,1]
+    Output: "2211"
+    
+**Example4:**
+
+    Input: digits=[1]
+    Output: ""
+    
+**Example5:**
+
+    Input: digits=[0,0,0,0,0,0]
+    Output: "0"
+
+**Constraints:**
+
+- 1 <= digits.length <= 10^4
+- 0 <= digits[i] <= 9
+- The returning answer must not contain unnecessary leading zeros.

@@ -31,7 +31,7 @@ Note that the nodes have no values and that we only use the node numbers in this
 
 **Constraints:**
 
-- 1 <= n <= 10^4
+- 1 <= n <= 10<sup>4</sup>
 - leftChild.length == rightChild.length == n
 - -1 <= leftChild[i], rightChild[i] <= n - 1
 
@@ -62,7 +62,7 @@ Return the two integers in any order.
     
 **Constraints:**
 
-- 1 <= num <= 10^9
+- 1 <= num <= 10<sup>9</sup>
 
 ---
 
@@ -101,6 +101,6 @@ If there is no answer return an empty string.
 
 **Constraints:**
 
-- 1 <= digits.length <= 10^4
+- 1 <= digits.length <= 10<sup>4</sup>
 - 0 <= digits[i] <= 9
 - The returning answer must not contain unnecessary leading zeros.

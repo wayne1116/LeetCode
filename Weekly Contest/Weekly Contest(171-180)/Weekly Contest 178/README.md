@@ -73,6 +73,19 @@
 
 ### Linked List in Binary Tree(Medium)
 
+    Given a binary tree root and a linked list with head as the first node. 
+
+    Return True if all the elements in the linked list starting from the head correspond to some downward path connected
+    in the binary tree otherwise return False.
+
+    In this context downward path means a path that starts at some node and goes downwards.
+
+**Constraints:**
+
+- 1 <= node.val <= 100 for each node in the linked list and binary tree.
+- The given linked list will contain between 1 and 100 nodes.
+- The given binary tree will contain between 1 and 2500 nodes.
+
 ---
 
 ### Minimum Cost to Make at Least One Valid Path in a Grid(Hard)

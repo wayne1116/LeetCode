@@ -107,7 +107,7 @@
 
     Return the minimum cost to make the grid have at least one valid path.  
 
-**Constraints:*8
+**Constraints:**
 
 - m == grid.length
 - n == grid[i].length

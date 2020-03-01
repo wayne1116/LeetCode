@@ -59,12 +59,16 @@
 
     Input: votes = ["BCA","CAB","CBA","ABC","ACB","BAC"]
     Output: "ABC"
-    Explanation: 
-                 Team A was ranked first by 2 voters, second by 2 voters and third by 2 voters.
-                 Team B was ranked first by 2 voters, second by 2 voters and third by 2 voters.
-                 Team C was ranked first by 2 voters, second by 2 voters and third by 2 voters.
-                 There is a tie and we rank teams ascending by their IDs.
-                 
+ 
+**Constraints:**
+
+- 1 <= votes.length <= 1000
+- 1 <= votes[i].length <= 26
+- votes[i].length == votes[j].length for 0 <= i, j < votes.length.
+- votes[i][j] is an English upper-case letter.
+- All characters of votes[i] are unique.
+- All the characters that occur in votes[0] also occur in votes[j] where 1 <= j < votes.length.
+
 ---
 
 ### Linked List in Binary Tree(Medium)

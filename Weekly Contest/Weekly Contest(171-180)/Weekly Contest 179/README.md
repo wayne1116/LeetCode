@@ -108,12 +108,13 @@
 ### Frog Position After T Seconds (Hard)
 
     Given an undirected tree consisting of n vertices numbered from 1 to n. A frog starts jumping from the vertex 1. 
+    
     In one second, the frog jumps from its current vertex to another unvisited vertex if they are directly connected. 
     The frog can not jump back to a visited vertex. In case the frog can jump to several vertices it jumps randomly to 
     one of them with the same probability, otherwise, when the frog can not jump to any unvisited vertex it jumps forever 
     on the same vertex. 
 
     The edges of the undirected tree are given in the array edges, 
-    where edges[i] = [fromi, toi] means that exists an edge connecting directly the vertices fromi and toi.
+    where edges[i] = [from<sub>i</sub>, to<sub>i</sub>] means that exists an edge connecting directly the vertices from<sub>i</sub> and to<sub>i</sub>.
 
     Return the probability that after t seconds the frog is on the vertex target.

@@ -34,7 +34,7 @@
     At moment k (for k from 0 to n - 1), we turn on the light[k] bulb. 
     A bulb change color to blue only if it is on and all the previous bulbs (to the left) are turned on too.
 
-Return the number of moments in which all turned on bulbs are blue.
+    Return the number of moments in which all turned on bulbs are blue.
 
 **Example 1:**
     
@@ -54,10 +54,9 @@ Return the number of moments in which all turned on bulbs are blue.
     Output: 6
 
 **Constraints:**
-
-    - n == light.length
-    - 1 <= n <= 5 * 10^4
-    - light is a permutation of  [1, 2, ..., n]
+- n == light.length
+- 1 <= n <= 5 * 10^4
+- light is a permutation of  [1, 2, ..., n]
  
  ---
  

@@ -22,7 +22,6 @@ class Solution {
     void solv(int[] balls, int level, int sum, int target, int[] color) {
         if(level==balls.length){
             if(sum==target){
-                int s=0;
                 int diff1=0;
                 int diff2=0;
                 double total1=dp[target];
@@ -34,7 +33,6 @@ class Solution {
                         ++diff2;
                     if(color[i]>0)
                         ++diff1;
-                    s+=color[i];
                 }
                 
                 total+=total1*total2;

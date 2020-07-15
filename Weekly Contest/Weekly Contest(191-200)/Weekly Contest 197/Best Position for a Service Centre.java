@@ -48,3 +48,4 @@ class Solution {
         
     }
 }
+// Reference: https://www.sciencedirect.com/science/article/pii/S0898122109004234

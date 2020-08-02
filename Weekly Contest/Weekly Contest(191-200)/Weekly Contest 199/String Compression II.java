@@ -63,32 +63,41 @@ class Solution {
 
 // another method reference: https://leetcode.com/problems/string-compression-ii/discuss/759416/JavaDP-Top-DownMemoizationExplained-and-Commented
 class Solution {
-    int len;
-    String ss;
     Integer[][][][] dp;
+    String line;
+    int len;
     public int getLengthOfOptimalCompression(String s, int k) {
-        len = s.length();
-        ss = s;
-        dp = new Integer[len][k+1][26][101];
-        return dd(0,k,(int)'a'-'a',0);
+        len=s.length();
+        line=s;
+        dp=new Integer[101][k+1][26][101];
+        return solv(0, k, 0, 0);
     }
-    private int dd(int pos, int k, int last, int freq){
-        if(pos==len) return 0;
-        int c = ss.charAt(pos)-'a';
-        if(dp[pos][k][last][freq]!=null) return dp[pos][k][last][freq];
-        int ans = Integer.MAX_VALUE;
-		// Which means we can afford deleting
-        if(k>=0){
-            // start a new group
-            if(c!=last || freq==0) ans = Math.min(ans,1+dd(pos+1,k,c,1));
-            else {
-                // continue the old group
-                int nf = freq+1;
-                if(nf==2 || nf ==10 || nf==100 || nf==1000) ans = Math.min(ans,1+dd(pos+1,k,c,nf)); 
-                else ans = Math.min(ans,dd(pos+1,k,c,nf));
+    
+    int solv(int currPosition, int remainDelete, int lastCharacter, int freq) {
+        if(len<=currPosition)
+            return 0;
+        if(dp[currPosition][remainDelete][lastCharacter][freq]!=null)
+            return dp[currPosition][remainDelete][lastCharacter][freq];
+        
+        int result=2147483647;
+        int currCharacter=line.charAt(currPosition)-'a';
+        // not delete current character
+        if(remainDelete>=0) {
+            if(currCharacter!=lastCharacter || freq==0)
+                result=Math.min(result, 1+solv(currPosition+1, remainDelete, currCharacter, 1));
+            else{
+                int f=freq+1;
+                int plus=0;
+                if(f==2 || f==10 || f==100)
+                    plus=1;
+                result=Math.min(result, plus+solv(currPosition+1, remainDelete, currCharacter, f));
             }
         }
-        if(k>0) ans = Math.min(ans,dd(pos+1,k-1,last,freq));
-        return dp[pos][k][last][freq]=ans;
+        // delete current character
+        if(remainDelete>0)
+            result=Math.min(result, solv(currPosition+1, remainDelete-1, lastCharacter, freq));
+        
+        dp[currPosition][remainDelete][lastCharacter][freq]=result;
+        return result;
     }
 }

@@ -1,4 +1,7 @@
-# 
+// 1576. Replace All ?'s to Avoid Consecutive Repeating Characters
+// difficulty: Easy
+// website: https://leetcode.com/contest/weekly-contest-205/problems/replace-all-s-to-avoid-consecutive-repeating-characters/
+
 class Solution {
     public String modifyString(String s) {
         StringBuilder st=new StringBuilder();

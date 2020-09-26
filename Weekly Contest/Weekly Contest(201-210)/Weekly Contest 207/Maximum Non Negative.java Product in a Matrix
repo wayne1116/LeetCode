@@ -1,5 +1,6 @@
 // 1594. Maximum Non Negative Product in a Matrix
 // difficulty: medium
+// website: https://leetcode.com/contest/weekly-contest-207/problems/maximum-non-negative-product-in-a-matrix/
 
 class Solution {
     public int maxProductPath(int[][] grid) {

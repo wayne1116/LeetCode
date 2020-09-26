@@ -1,5 +1,6 @@
 // 1595. Minimum Cost to Connect Two Groups of Points
 // difficulty: hard
+// website: https://leetcode.com/contest/weekly-contest-207/problems/minimum-cost-to-connect-two-groups-of-points/
 // keypoint: dynamic programming, bit masking
 
 class Solution {

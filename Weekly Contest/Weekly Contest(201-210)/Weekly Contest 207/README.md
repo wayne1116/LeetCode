@@ -1,4 +1,4 @@
-### [Weekly Contest 207](https://leetcode.com/contest/weekly-contest-206)
+### [Weekly Contest 207](https://leetcode.com/contest/weekly-contest-207)
 
 - Rearrange Spaces Between Words(Easy)
 

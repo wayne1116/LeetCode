@@ -16,9 +16,10 @@ The simple idea solving this problem is to find the largest digit number in the 
 
 ## 1690. Stone Game VII
 
-In this problem, I use the dynamic programming method to solve this problem.
-According to the description, Bob has to minimize the score's difference and Alice has to maximize the difference in the score.
-Therefore, dp[i][j] represents that the interval between stone i and stone j
+In this problem, I use the dynamic programming method to solve this problem.<br>
+According to the description, we have to satisfy the following condition:
+- remove either the leftmost stone or the rightmost stone.
+
 
 ## 1691. Maximum Height by Stacking Cuboids
 To solve this problem, firstly sort individual cuboid, so sides are in increasing order.<br>

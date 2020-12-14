@@ -18,7 +18,11 @@ The simple idea solving this problem is to find the largest digit number in the 
 
 In this problem, I use the dynamic programming method to solve this problem.<br>
 According to the description, we have to satisfy the following condition:
-- remove either the leftmost stone or the rightmost stone.
+- remove either the leftmost stone or the rightmost stone
+- when it's Bob turn, minimize the score's difference
+- when it's Alice turn, maximize the difference in the score
+
+so
 
 
 ## 1691. Maximum Height by Stacking Cuboids

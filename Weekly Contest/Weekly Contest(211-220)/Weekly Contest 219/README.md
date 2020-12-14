@@ -8,7 +8,8 @@
 
 - Maximum Height by Stacking Cuboids(Hard)
 
-## Count of Matches in Tournament
+## 1688. Count of Matches in Tournament
 To solve this problem, just follow the description in the problem and write down the code.
 
-## Partitioning Into Minimum Number Of Deci-Binary Numbers
+## 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers
+The simple idea solving this problem is to find the largest digit number in the string.

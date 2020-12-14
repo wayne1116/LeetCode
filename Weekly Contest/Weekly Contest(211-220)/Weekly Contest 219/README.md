@@ -13,3 +13,14 @@ To solve this problem, just follow the description in the problem and write down
 
 ## 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers
 The simple idea solving this problem is to find the largest digit number in the string.
+
+## 1690. Stone Game VII
+
+In this problem, I use the dynamic programming method to solve this problem.
+According to the description, Bob has to minimize the score's difference and Alice has to maximize the difference in the score.
+Therefore, dp[i][j] represents that the interval between stone i and stone j
+
+## 1691. Maximum Height by Stacking Cuboids
+To solve this problem, firstly sort individual cuboid, so sides are in increasing order.
+Secondly sort cuboids again so cuboids[i] may be possible to put on top of cuboids[j] if i < j.
+After that, just use the dynamic programming methods to record the cuboids[i] how height it can be.

@@ -22,8 +22,9 @@ According to the description, we have to satisfy the following condition:
 - when it's Bob turn, minimize the score's difference
 - when it's Alice turn, maximize the difference in the score
 
-so
-
+Therefore, just explain the meaning of variables and functions in my code.
+- solv function: find the optimal score's difference from stone i(left) to stone j(right)
+- dp[i][j] : the optimal score's difference(Alice score - Bob score) 
 
 ## 1691. Maximum Height by Stacking Cuboids
 To solve this problem, firstly sort individual cuboid, so sides are in increasing order.<br>
